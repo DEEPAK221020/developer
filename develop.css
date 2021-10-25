@@ -1,0 +1,730 @@
+ /* whole body */
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+.chan {
+    height: 20px;
+}
+.width{
+    width: 30px;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* background-color:black; */
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0%;
+    z-index: 3;
+    transition:00.5s;
+   
+}
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+.nav1 > a{
+color: black;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+font-size: 18px;
+z-index: 1;
+display : flex;
+justify-content:center;
+align-items:center;
+}
+#user{
+width:50px;
+}
+.nav1 > a:hover{
+background-color: #f44336;
+border-radius:5px;
+transition:0.5s;
+color:whitesmoke;
+} 
+.nav1 > #user:hover{
+background-color: #f44336;
+border-radius:5px;
+transition:0.5s;
+justify-content:center;
+} 
+.nav1 > h1{
+color: white;
+font-weight: bold;
+text-decoration: none;
+background-color: #e06666;
+border-radius: 50%;
+border: 2px solid goldenrod;
+;
+
+}
+.scrolling-active{
+background-color:white;
+color: black;
+/* border-bottom: 2px solid black; */
+}
+
+/* secbar-1 */
+.secbar{
+display: flex;
+background-image: url("https://iphonewallpaperworld.com/wp-content/uploads/2020/03/Desktop-wallpaper-2021-28-scaled.jpg");
+width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: flex-end;
+background-attachment: fixed;
+justify-content: center;
+align-items: center;
+background-color:rgb(56 28 206 / 5%) ;
+}
+
+.shophead {
+    display: flex;
+    flex-direction:column;
+text-align: left;
+    position: absolute;
+   
+    z-index: 0;
+    /* top: 40%; */
+    left: 62%;
+
+}
+#secHeading{
+    color: #f44336;
+}
+#sec_SubPara{
+    color: white;
+}
+#sec_SubPara > em{
+    color: #f44336;
+}
+.btn {
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 10px black;
+    color: #fff;
+}
+/* section-2 */
+.lines {
+    width: 100px;
+    height: 3px;
+    background-color:darkorange;
+    margin: 33px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.secbar2 {
+    align-items: center;
+    z-index: 0;
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+     background-color:  rgb(56 28 206 / 5%)
+}
+
+.testimony {
+    text-align: center;
+    padding: 0px 0px ;
+    margin-top: -23px;
+    color:black;
+}
+#testimo{
+    font-size: 35px;
+}
+.serv{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+flex-direction: row;
+align-items: center;
+}
+.serv-a{
+display: flex;
+justify-content: center;
+width: 100%;
+flex-direction: column;
+align-items: flex-end;
+}
+.serv1 , .serv2 , .serv3 , .serv4 , .serv5 , .serv6 {
+display: flex;
+justify-content: center;
+width: 50%;
+height: 50px;
+/* background-color:black; */
+border-radius: 10px;
+box-shadow: inset 0px 0px 10px black;
+align-items: center;
+color:black;
+
+}
+.serv1:hover{
+    background-color: white;
+    box-shadow: inset 0px 0px 5px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.serv2:hover{
+    background-color: white;
+    box-shadow: inset 0px 0px 5px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.serv3:hover{
+    background-color: white;
+    box-shadow: inset 0px 0px 5px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.serv4:hover{
+    background-color: white;
+    box-shadow: inset 0px 0px 5px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.serv5:hover{
+    background-color: white;
+    box-shadow: inset 0px 0px 5px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.serv6:hover{
+    background-color: white;
+    box-shadow: inset 0px 0px 5px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.serv-b{
+display: flex;
+justify-content: center;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.lina {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+/* section-3 */
+.secbar-3{
+display:flex;
+flex-direction: row;
+align-items:center;
+background-image:url("https://www.pixelstalk.net/wp-content/uploads/images1/Light-bulbs-photography-hd-wallpaper-1920x1080.jpg");
+width:100%;
+height:300px;
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content:space-evenly;
+color:white;
+}
+.sec3{
+display: flex;
+width: 40%;
+/* margin-left: 15%; */
+justify-content: center;
+}
+.sec3a{
+display: flex;
+width: 40%;
+justify-content: center;
+text-align: center;
+}
+.sec3 > h1{
+color:white;
+/* margin-left: 190px; */
+font-size: 35px;
+left: 20%;
+}
+
+.galary {
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: -23px;
+    color:black;
+}
+#GALAN{
+    font-size: 35px;
+}
+.images{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+}
+.img1 > img {
+    width:350px;
+    height: 250px;
+    box-shadow:inset 0px 0px 5px black;
+    border-radius: 5px;
+}
+.img1 > img:hover{
+    cursor: pointer;
+transition: all 0.5s ease-in-out;
+transform: scale(1.05);
+} 
+.img2{
+    display: flex;
+    flex-direction: row;
+}
+.img2 > img {
+    width:350px;
+    height: 250px;
+    box-shadow: inset 0px 0px 5px black;
+    border-radius: 5px;
+}
+.img2 > img:hover{
+    cursor: pointer;
+transition: all 0.5s ease-in-out;
+transform: scale(1.05);
+}
+/* section-4 */
+
+.secbar-4{
+    overflow-x: hidden;
+    color: white;
+    background-color:rgb(56 28 206 / 5%); 
+}
+.contact {
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: -23px;
+}
+
+.map1 {
+    display: flex;
+    margin: 0px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.map {
+    width: 70%;
+}
+
+.connection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* flex-direction: row; */
+    margin: 0px 0px;
+    justify-content: space-evenly;
+}
+#CONT{
+    font-size: 35px;
+}
+
+.conts {
+    margin: -0px 45px;
+    padding: -1px 80px;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 5px 0px;
+    box-shadow: inset 0px 0px 11px black;
+    background-color: rgb(43 19 15);
+}
+.btn:hover{
+    background-color: #f44336;
+    
+}
+
+#buisness {
+    justify-content: center;
+    align-items: center;
+}
+
+#horizontal {
+    margin: 0px 0px;
+    height: 1px;
+    background-color: darkorange;
+    width: 80%;
+}
+.houri-x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+.secbar5 {
+    margin-right: 0px;
+    width: 100%;
+    color:black ;
+    background-color:  rgb(56 28 206 / 5%);
+}
+
+.secbar6 {
+    margin-right: 0px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image:url("https://images.unsplash.com/photo-1612383401597-cdfb8bdfa0d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXIlMjBkYXJrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=2000&q=80");
+    width:-100%;
+    background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
+color: #fff;
+}
+
+.footer {
+    margin-right: 0px;
+    width: 100%;
+}
+#call > a{
+    color: white;
+    text-decoration: none;
+}
+#call > a:hover {
+    background: none;
+}
+#direct > a{
+    color: white;
+    text-decoration: none;
+}
+#direct > a:hover {
+    background: none;
+}
+.whats{
+    font-size: 25px;
+}
+.whats:hover {
+    background: none;
+}
+.orange{
+    color: darkorange;
+}
+.numbers{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hamburger menu css */
+.box1,
+.box2,
+.box3 {
+    background-color:black ;
+    width: 20px;
+    height: 3px;
+    margin: 2px;
+    transition: 0.4s;
+}
+.change .box1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.change .box2 {
+    opacity: 0;
+}
+
+.change .box3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 20%;
+}
+ /* sidebar css */
+ #sidebar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 0px;
+    z-index: 2;
+    background-color:white;
+    transition: 0.3s;
+    /* top: 15%; */
+    scroll-behavior:unset;
+}
+
+#sideds {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.link-a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 18px 0px;
+}
+
+.myself-s {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.myself-s :hover {
+    color: #f44336;
+}
+
+/* social media icons */
+.smedia{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.smedia > a > i {
+    color: #fff;
+    font-size: 25px;
+
+}
+.smedia > a > i:hover{
+    color: darkorange;
+}
+.mail {
+    text-decoration: none;
+    color: #fff;
+}
+.mail:hover {
+    color: darkorange;
+}
+.mail > i{
+    font-size: 25px;
+}
+.calling-ic > i {
+    font-size: 25px;
+}
+.calling-ic:hover{
+    color: darkorange;
+}
+.direct{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.direct:hover{
+    color: darkorange;
+}
+
+/* media quieries */
+
+@media only screen and (max-width:1176px){
+    .img2 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+    .img1 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+}
+
+@media only screen and (max-width:969px){
+
+    .images{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img1{
+        flex-direction: column;
+    }
+    .img2{
+        flex-direction: column;
+    }
+    .img2 > img {
+        width:300px;
+        height: 200px;
+      
+    }
+    .img1 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+}
+    
+@media only screen and (max-width:871px){
+ 
+.connection{
+    grid-template-columns: auto auto;
+/* flex-direction: column; */
+justify-content: center;
+}
+}
+@media only screen and (max-width:626px){
+    .images{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img1{
+        flex-direction: column;
+    }
+    .img2{
+        flex-direction: column;
+    }
+    #testimo , .sec3 > h1, #GALAN , #CONT {
+        font-size: 30px;
+    }
+    .nav1 > h1 {
+  font-size: 20px;
+
+    }
+    .nav1 > a {
+        font-size: 16px;
+
+    }
+    .serv{
+        flex-direction: column;
+    }
+    .serv-a{
+        align-items: center;
+    }
+    .serv-b{
+        align-items: center;
+    }
+    .connection{
+        grid-template-columns: auto ;
+    /* flex-direction: column; */
+    justify-content: center;
+    }
+    .img2 > img {
+        width:400px;
+        height: 300px;
+       
+    }
+    .img1 > img {
+        width:400px;
+        height: 300px;
+        
+    }
+
+}
+@media only screen and (max-width:506px){
+
+.nav1 > a {
+        font-size: 16px;
+        display: none;
+
+    }
+    .menu {
+        display: flex;
+    }
+
+    #sidebar {
+        display: flex;
+    }
+    #testimo , .sec3 > h1 , #GALAN , #CONT {
+        font-size: 25px;
+    }
+    .sec3a{
+        font-size: 14px;
+    }
+    .shophead{
+        left: 50%;
+    }
+    #sec_SubPara{
+        color: whitesmoke;
+    }
+    @media only screen and (max-width:506px){
+        #testimo , .sec3 > h1 , #GALAN , #CONT {
+        font-size: 23px;
+    }
+    .sec3a{
+        font-size: 12px;
+    }
+    
+    .img2 > img {
+    width:400px;
+    height: 300px;
+   
+}
+.img1 > img {
+    width:400px;
+    height: 300px;
+    
+}
+.menu{
+    left: 15%;
+}
+}
+@media only screen and (max-width:432px){
+    .img2 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+    .img1 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+}
+@media only screen and (max-width:333px){
+    .img2 > img {
+        width:250px;
+        height: 200px;
+       
+    }
+    .img1 > img {
+        width:250px;
+        height: 200px;
+      
+    }
+}
+}

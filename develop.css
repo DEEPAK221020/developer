@@ -752,3 +752,202 @@ justify-content: center;
       
     }
 }
+@media only screen and (max-width:506px){
+
+.nav1 > a {
+        font-size: 16px;
+        display: none;
+
+    }
+    .menu {
+        display: flex;
+    }
+
+    #sidebar {
+        display: flex;
+    }
+    #testimo , .sec3 > h1 , #GALAN , #CONT {
+        font-size: 25px;
+    }
+    .sec3a{
+        font-size: 14px;
+    }
+    .shophead{
+        left: 50%;
+    }
+    #sec_SubPara{
+        color: whitesmoke;
+    }
+    #secHeading{
+        color: #f44336;
+        font-size: 30px;
+    }
+}
+    @media only screen and (max-width:506px){
+        #testimo , .sec3 > h1 , #GALAN , #CONT {
+        font-size: 23px;
+    }
+    .sec3a{
+        font-size: 12px;
+    }
+    
+    .img2 > img {
+    width:400px;
+    height: 300px;
+   
+}
+.img1 > img {
+    width:400px;
+    height: 300px;
+    
+}
+.menu{
+    left: 15%;
+}
+}
+@media only screen and (max-width:432px){
+    .img2 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+    .img1 > img {
+        width:300px;
+        height: 200px;
+       
+    }
+}
+@media only screen and (max-width:333px){
+    .img2 > img {
+        width:250px;
+        height: 200px;
+       
+    }
+    .img1 > img {
+        width:250px;
+        height: 200px;
+      
+    }
+}
+
+@media only screen and (min-width:1450px){
+
+    /* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* background-color:black; */
+    width: 100%;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0%;
+    z-index: 3;
+    transition:00.5s;
+    color: #fff;
+   
+}
+    .nav1 > a{
+color: black;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+font-size: 40px;
+z-index: 1;
+display : flex;
+justify-content:center;
+align-items:center;
+}
+
+/* logo */
+#logs-1{
+    font-size: 40px;
+}
+#secHeading{
+    color: #f44336;
+    font-size: 100px;
+}
+#sec_SubPara{
+    font-size: 30px;
+}
+#about_title{
+    font-size: 50px;
+}
+.sec3a{
+    font-size: 30px;
+}
+#testimo{
+    font-size: 50px;
+}
+.serv1 , .serv2 , .serv3 , .serv4 , .serv5 , .serv6 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 50%;
+    height: 85px;
+    /* background-color:black; */
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px black;
+    align-items: center;
+    color:black;
+    
+    }
+    #GALAN{
+        font-size: 50px;
+    }
+    .img1 > img {
+        width: 600px;
+        height: 500px;
+        box-shadow:inset 0px 0px 5px black;
+        border-radius: 5px;
+    }
+    .img2 > img {
+        width: 600px;
+        height: 500px;
+        box-shadow:inset 0px 0px 5px black;
+        border-radius: 5px;
+    }
+    #CONT{
+        font-size: 50px;
+    }
+    #gmap {
+        width: 70%;
+        height: 80vh;
+    }
+    .orange{
+        color: darkorange;
+        font-size: 35px;
+    }
+    .smedia > a > i {
+        color: #fff;
+        font-size: 45px;
+    
+    }
+    .mail > i{
+        font-size: 35px;
+    }
+    .calling-ic > i {
+        font-size: 35px;
+    }
+    .direct{
+        text-decoration: none;
+        font-size: 35px;
+        color: #fff;
+    }
+    #buisness > p{
+        font-size: 35px;
+    }
+    #address-1 , #address-2 , #country-1 , #mappp-1 , #emailer,.numbers{
+        font-size: 35px;
+    }
+    .adrs{
+        font-size: 45px;
+    }
+    footer{
+        font-size: 35px;
+    }
+
+}
+
+
